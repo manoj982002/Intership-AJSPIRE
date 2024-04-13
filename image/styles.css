@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: green;
+    color: whitesmoke;
+
+}
+.box01{
+    border-radius: 120px;
+    border: dashed;
+    height: 900px;
+    width: 300px;
+    border-color: rgb(11, 9, 9);
+}
+h1{
+    color: rgb(9, 9, 9);
+    padding: 30px;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: rgb(16, 16, 15);
+    text-shadow: black;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Long Cang', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Whisper', cursive;
+}
+.box01 p{
+    text-align: center;
+    padding: 70px 0px 0px 0px;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Long Cang', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Whisper', cursive;
+    font-size: 30px;
+    text-shadow: 2px 3px 3px red;
+}
+a{
+    padding: 20px 10px 10px 100px;
+    color: whitesmoke;
+    cursor: -moz-zoom-in;
+    animation: forwards;
+    animation-duration: 2ms;
+    animation-delay: 5ms;
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Long Cang', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Whisper', cursive;
+font-size-adjust: calc(300px);
+}
+.box01 table{
+    font-size: 45px;
+    text-align: center;
+    padding: 70px 0px 0px 0px;
+    
+}
+.box03{
+    border-color: black;
+    border: solid;
+    height: 300px;
+    width: 500px;
+}
+.box04{
+    border-color: green;
+    border: solid;
+    background-color: green;
+    height:150px;
+    width: 250;
+    margin: 20px;
+}
+.box001 table{
+    margin left: 100px;
+}
