@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task14</title>
+</head>
+<body>
+    <script src="server.js"></script>
+    <fieldset>
+        <legend>Details</legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="Name">Name</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter Your Name" id="name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="AGE">AGE</label>
+                </td>
+                <td>
+                    <input type="text" maxlength="2" id="age">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Roll no</label>
+                </td>
+                <td>
+                    <input type="text" id="rollno">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Blood Goup">Blood Group</label>
+                </td>
+                <td>
+                    <input type="radio" name="same" id="12"> A+ 
+                    <input type="radio" name="same" id="12">B+
+                    <input type="radio" name="same" id="12">AB+
+                    <input type="radio" name="same" id="12">B- 
+                    <input type="radio" name="same" id="12">A- 
+                    <input type="radio" name="same" id="12">O+
+                    <input type="radio" name="same" id="12">O- 
+
+               </td>
+            </tr>
+        </table>
+        <!--
+        <label for="Name">Name</label>
+        <input type="text" placeholder="Enter your Name">
+        <br><br>
+        <label for="Age">Age</label>
+        <input type="text" maxlength="2">
+        -->
+
+    </fieldset>
+    <fieldset>
+        <legend>
+            Academic Details
+        </legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="degree">Degree</label>
+                </td>
+                <td>
+                    <input type="text" id="degree">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="percentage">Percentage</label>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>
+            Card details 
+        </legend>
+    
+        <p>1.</p>
+        <fieldset>
+            <legend>
+                Card Type
+            </legend>
+            <p>1. <input type="radio" name="" id=""> VISA 
+                <br>
+                <br>
+                2. <input type="radio" name="" id=""> AmEx 
+                <br><br>
+                3. <input type="radio"> Master Card
+            
+        </fieldset>
+        <p>2.card nnumber <input type="text"></p>
+            <p>3. Security code <input type="text"></p>
+            <p>4. Name of Card <input type="text" name="" id="name_of_card"></p>
+    </fieldset>
+    <fieldset>
+        <button type="button" onclick="formfilled()">BUY IT!</button>
+    </fieldset>
+    
+</body>
+</html>
